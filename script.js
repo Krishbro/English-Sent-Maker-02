@@ -89,5 +89,5 @@ const nextBtn = document.getElementById("next-btn");
 
 nextBtn.addEventListener("click", function() {
   // Replace "https://example.com" with the URL you want to open
-  window.location.href = "https://learnenglishsinhala.blogspot.com/2023/04/test.html";
+  window.location.href = "https://krishbro.github.io/English-Sent-Maker-03/";
 });
