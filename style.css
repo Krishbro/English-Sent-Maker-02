@@ -1,0 +1,109 @@
+.container {
+margin-top:100px;
+padding: 5px;
+}
+
+h1 {
+text-align: center;
+font-size: 26px;
+margin-top:0px;
+color: #FC5185;
+}
+
+.game {
+border: 2px solid #ccc;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+.sentence {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.sinhala {
+font-size: 18px;
+color: #666;
+color: #3F72AF;
+background-color: #fff;
+padding: 20px;
+border-radius: 15px;
+
+}
+
+.words {
+display: flex;
+flex-wrap: wrap;
+
+}
+.word {
+background-color: #f0f0f0;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+.submit {
+text-align: center;
+margin-top: 20px;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 18px;
+}
+.result {
+font-size: 24px;
+text-align: center;
+margin-top: 20px;
+
+
+}
+.english{
+display:none;
+}
+
+#restart-btn , #next-btn {
+  background-color: #4CAF50;
+  margin-top: 150px;
+}
+
+#restart-btn:hover , #next-btn:hover {
+  background-color: #3e8e41;
+}
+.num {
+  background-color: #537FE7;
+  color: #fff;
+  padding: 0px 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 14px;
+
+}
+.congrats{
+  text-align: center;
+  display: none;
+  color: #4CAF50;
+  margin-top: 30px;
+}
+img{
+  width: 50px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.foot{
+text-align: center;
+color: #fff;
+font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-weight: normal;
+margin-top: 40px;
+}

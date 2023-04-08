@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>English Sentences Maker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>English Sentences  Maker <img src="https://cdn-icons-png.flaticon.com/512/3790/3790171.png" alt=""> </h1>
+
+      <div class="game">
+        <div class="sentence">
+          <div class="english">The cat sat on the mat.</div>
+          <div class="sinhala">(සිංහල ප්‍රචලිතය)</div>
+        </div>
+
+        <div class="words">
+          <div class="word">cat</div>
+          <div class="word">sat</div>
+          <div class="word">on</div>
+          <div class="word">the</div>
+          <div class="word">mat</div>
+        </div>
+        <div class="submit">
+          <button onclick="checkAnswer()">Submit</button>
+
+        </div>
+      </div>
+      <div class="result"></div>
+    <div class="congrats">
+      <h3>සුභපැතුම්! ඔබ ප්‍රශ්න සියල්ලටම නිවැරදිව පිළිතුරු ලබා දී ඇත.</h3>
+
+      <button id="restart-btn">Restart</button>
+      <button id="next-btn">Next</button>
+
+    </div>
+    <div class="foot">
+    Made with ❤️ in English very Easy.
+    </div>
+    </div>
+<script src="script.js" charset="utf-8"></script>
+<script>
+ window.onresize = () => {
+   queBox.style.transform = `translateX(${-section[0].offsetWidth * index}px)`;
+ };
+ window.oncontextmenu = (e) => {
+   e.preventDefault();
+ };
+ </script>
+  </body>
+</html>
